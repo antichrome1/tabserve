@@ -1,0 +1,17 @@
+{
+    "homepage_url": "https://github.com/antichrome1/tabserve",
+    "author": "Aditya Singh <antichrome1@proton.me>",
+    "manifest_version": 2,
+    "name": "TabServe",
+    "description": "Load an HTML file from an HTTP endpoint when opening a new tab",
+    "version": "1.2",
+    "chrome_url_overrides": { "newtab": "placeholder.html" },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "antichrome1@tabserve",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    }
+}
