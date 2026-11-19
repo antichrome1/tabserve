@@ -4,7 +4,7 @@ Load an HTML file from an HTTP endpoint when opening a new tab.
 
 ## Use
 
-- Install tabserve from https://addons.mozilla.org .
+- Install tabserve from [mozilla addons](https://addons.mozilla.org/en-US/firefox/addon/tabserve/).
 - Run a http server at port 50123 and put a `tabserve.html` file at
   it's root.
 - Put `<base target="_top">` inside the `<head>` of `tabserve.html`.
